@@ -1,0 +1,51 @@
+.about_title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--chorniy);
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.about_item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.about_img {
+    width: 18px;
+    height: 18px;
+}
+
+.about_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    text-align: start;
+    color: #53554e;
+}
+
+@media screen and (min-width: 640px) {
+    .about_list{
+        display: flex;
+        gap: 60px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .about_list{
+        display: flex;
+        gap: 150px;
+    }
+    .about_text{
+        font-size: 19px;
+    }
+
+    .about_title{
+        font-size: 36px;
+    }
+}
